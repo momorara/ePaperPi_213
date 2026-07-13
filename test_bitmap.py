@@ -16,14 +16,17 @@ draw = ImageDraw.Draw(image)
 # DejaVuフォント指定
 font_path = '/usr/share/fonts/truetype/fonts-japanese-mincho.ttf' 
 font_path = '/usr/share/fonts/truetype/fonts-japanese-gothic.ttf'
-font = ImageFont.truetype(font_path, 48)
+font = ImageFont.truetype(font_path, 24)
 
 # 表示テキスト（※日本語は表示されない可能性あり）
-text = "こんにちは"
-text = "27日"
+text1 = "こんにちは、"
+text2 = " ご購入ありがとう"
+text3 = "　　　　 ございます。"
 
 # 文字描画
-draw.text((0, 40), text, font=font, fill=0)  # 0=黒
+draw.text((0, 10), text1, font=font, fill=0)  # 0=黒
+draw.text((0, 50), text2, font=font, fill=0)  # 0=黒
+draw.text((0, 90), text3, font=font, fill=0)  # 0=黒
 #ピットマップ上に図形を追加する場合
 # draw.line((10,10,50,50))
 # draw.point((100,50))
