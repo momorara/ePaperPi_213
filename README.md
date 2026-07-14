@@ -1,6 +1,6 @@
 # ePaperPi_213
 ePaper213を使うためのプログラム群
-ePaper のためのライブラリです。 オリジナルのライブラリはjairoshさんの https://github.com/jairosh/raspberrypi-ssd1680/tree/master です。 こちらは 「WeAct Studio 2.13" three-color e-paper display」用のものですが、 これを白黒 用にしたものになります。
+ePaper のためのライブラリです。 オリジナルのライブラリはjairoshさんの https://github.com/jairosh/raspberrypi-ssd1680/tree/master です。 こちらは 「WeAct Studio 2.13" three-color e-paper display」用のものですが、 これを白黒用にし、pythonで使いやすいライブラリを追加したものになります。<br>
 
 <h4><<概要>>  現在作業中　</h4>
 　ePaper2.13インチ表示器一式とラズパイ装着用基板です。 <br>
