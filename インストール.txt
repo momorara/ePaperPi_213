@@ -1,0 +1,43 @@
+Bookworm、Trixie以降で使用する場合は、仮想環境が必要になります。
+
+sudo apt update
+sudo apt install python3-numpy
+sudo apt install python3-pil
+
+
+# 日本語TTフォントをインストール
+sudo apt-get install -y fonts-dejavu
+sudo apt-get install -y fonts-ipafont
+【使用フォントについて】
+本教材／ソフトウェアでは、以下のフォントを利用しています。
+これらのフォントは、ユーザー自身がOSの公式パッケージ管理機能を用いて
+インストールする方式を採用しています。
+- DejaVu Fonts
+  License: Bitstream Vera License
+- IPA Fonts (IPAex Gothic / IPAex Mincho)
+  License: IPAフォントライセンス v1.0
+
+
+pipがない場合
+sudo apt install python3-pip
+
+pip install bdfparser --break-system-packages
+(システムを壊すリスクがあるが、一応動く)
+
+
+
+Bookworm、Trixie以降で使用する場合は、仮想環境が本来必要で、その場合は以下の通り
+
+🔳仮想環境を作る
+python3 -m venv V_ep --system-site-packages
+
+🔳仮想環境の有効化
+source V_ep/bin/activate
+
+🔳仮想環境から抜け出すのは
+deactivate
+
+🔳仮想環境の削除
+rm -rf ~/V_ep/
+
+pip install bdfparser
