@@ -22,7 +22,7 @@ git clone https://github.com/momorara/ePaperPi_213 <br>
 お問い合わせに関しては、サポート.txtを参照ください。<br>
 
 <h4><<動作環境>>></h4>
-2026/05/18 対応OS：Trixie版13.5(64bit)にて動作確認しました。<br>
+2026/07/14 対応OS：Trixie版13.6(64bit)にて動作確認しました。<br>
 
 <h4><<ライセンス>></h4>
 GNU General Public License v3.0 <br>
