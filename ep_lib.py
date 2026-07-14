@@ -48,7 +48,7 @@ display.init()
 
 # 画面の向きを上下反転できます。
 rotation = 270  # 
-rotation = 90   #
+# rotation = 90   #
 
 # 画面を白くクリアする
 def clear_w():
@@ -271,15 +271,11 @@ def main():
     x,y = 20,0
     BorW = 1
 
-    # image_path = 'bmp/checker1.bmp'
-    # bmp(x,y,image_path,BorW,1)
-    # time.sleep(2)
-    # # clear_w()
 
     image_path = 'bmp/1bpp41.bmp'
     bmp(x,y,image_path,BorW,1)
     time.sleep(2)
-    # clear_w()
+    clear_w()
 
     image_path = 'bmp/Mountain_200x100wb.bmp'
     BorW = 0
@@ -288,8 +284,14 @@ def main():
     BorW = 1
     bmp(x,y,image_path,BorW,1)
     time.sleep(3)
-    # clear_w()
+    clear_w()
     
+
+    image_path = 'bmp/QR_TKJ.png'
+    BorW = 0
+    bmp(x,y,image_path,BorW,1)
+
+
     # ePaperをクローズ
     close()
 
