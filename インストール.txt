@@ -25,7 +25,7 @@ pip install bdfparser --break-system-packages
 (システムを壊すリスクがあるが、一応動く)
 
 
-
+----------------------------
 Bookworm、Trixie以降で使用する場合は、仮想環境が本来必要で、その場合は以下の通り
 
 🔳仮想環境を作る
@@ -41,3 +41,11 @@ deactivate
 rm -rf ~/V_ep/
 
 pip install bdfparser
+
+
+----------------------------
+上記で、環境を作った上で、
+git clone https://github.com/momorara/ePaperPi_213
+として、プログラムをラズパイ上にダウンロードしてください。
+ePaperPi_213
+というディレクトリができますので、その中にプログラムが入っています。
