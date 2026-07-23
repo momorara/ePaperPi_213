@@ -1,5 +1,7 @@
 Bookworm、Trixie以降で使用する場合は、仮想環境が必要になります。
 
+設定でspiを有効にする
+
 sudo apt update
 sudo apt install python3-numpy
 sudo apt install python3-pil
